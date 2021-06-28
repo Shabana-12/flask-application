@@ -12,12 +12,12 @@ app.secret_key = 'your secret key'
 # Enter your database connection details below
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'pass@1New'
+app.config['MYSQL_PASSWORD'] = '******'
 app.config['MYSQL_DB'] = 'pythonlogin'
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'apexinfotechexcellenceco@gmail.com'
-app.config['MAIL_PASSWORD'] = 'pass@1New'
+app.config['MAIL_PASSWORD'] = '********'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 
