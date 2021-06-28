@@ -1,0 +1,55 @@
+body {
+    background-image: url('test.jpg');
+    background-repeat: no-repeat;}
+
+#id2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 150px;
+    padding: 70px 30px;
+    padding-top: 50;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+#id3 { 
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-color: black;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#id4 {
+    margin: 10;
+}
+
+#id5 {
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    background: rgb(0, 60, 255);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+#flash {
+    color: white;
+    font-weight: bold;
+    padding-left: 480;
+    font-size: 20;
+    padding-top: 80;
+    width: 300px;
+}

@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Reset password</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style3.css') }}">
+
+</head>
+
+<body >
+	<div id="flash">
+		{% for mesg in get_flashed_messages() %}
+		<p>{{ mesg }}</p>
+		{% endfor %}
+	</div>
+	<div id="id2">
+		<form action="/reset_email" method="post" onSubmit="check_pwd(this)">
+			<p>New Password</p><input id="id3" placeholder="Enter Password" type="password" name="pwd" required>
+			<p>Confirm New Password</p><input id="id3" placeholder="Confirm Password" type="password" name="cpwd"
+				required>
+			<div id="id4"></div>
+			<input id="id5" type="submit" value="RESET PASSWORD">
+		</form>
+	</div>
+</body>
+
+</html>
